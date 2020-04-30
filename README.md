@@ -42,7 +42,7 @@ npm run prepare-demo
 
 ##### 4. Start the demo project
 ```bash
-npm run start
+pm2  start demo/process.json
 ```
 
 #### Features
