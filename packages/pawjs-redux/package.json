@@ -1,0 +1,43 @@
+{
+  "name": "@pawjs/redux",
+  "version": "2.3.0",
+  "description": "Add Redux support to your PAWJS application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm-publish": "npm version patch && npm publish --access=public --tag=latest"
+  },
+  "author": "Atyantik Technologies Private Limited <tirthbodawala@atyantik.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "@pawjs/pawjs": "^2.4.0"
+  },
+  "devDependencies": {
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "dependencies": {
+    "tapable": "^2.0.0-beta.10"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atyantik/pawjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Atyantik/pawjs/issues"
+  },
+  "keywords": [
+    "pawjs",
+    "redux",
+    "react",
+    "redux",
+    "react-redux"
+  ],
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/react-pwa"
+  }
+}

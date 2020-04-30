@@ -1,0 +1,15 @@
+{
+    "apps": [{
+      "name": "gaana-lite",
+      "script": "./dist/server.js",
+      "cwd": "/Users/daya.yadav/pwajs-l5/pwajs-v1/demo",
+      "instances" : "max",
+      "exec_mode" : "cluster",
+      "env": {
+        "PWA_SSR":true,
+        "PORT" : "1337",
+        "IS_DEBUG" : true,
+        "liteGaana" : "liteGaana"
+             }
+    }]
+  }
